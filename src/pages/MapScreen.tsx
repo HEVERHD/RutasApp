@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native';
-import React from 'react';
+import { View } from 'react-native';
+import Maps from '../components/Maps';
 
-export default function () {
+export const MapScreen = () => {
     return (
-        <View>
-            <Text>MapScreen</Text>
+        <View style={{ flex: 1 }}>
+            <Maps />
         </View>
     );
-}
+};
